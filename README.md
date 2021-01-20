@@ -9,4 +9,6 @@ According to the [documentation](https://cloud.google.com/functions/docs), Googl
 
 ## Step by Step
 1. **Create a topic**: as far as the Data team was concerned, our first step was to create a topic inside of a project. To this end, all you have to do is login with your account, enter Pub/Sub, click on **CREATE TOPIC** and choose its name.
+![passo1](https://user-images.githubusercontent.com/50640320/105192154-97da3400-5b16-11eb-8af8-8267829a8e59.png)
+
 
