@@ -38,6 +38,10 @@ Once the function is deployed correctly, it is possible to test it without the n
 
 ps.: if the TEST THE FUNCTION option is not available once you paste the message, it means your json needs adjustments.
 
+![testing](https://user-images.githubusercontent.com/50640320/105207697-931d7c00-5b26-11eb-80a9-6c1dbf2cf432.png)
+
+**IMPORTANT**: remember that, as a safety measure, all messages reaching the topic are encrypted and this will be message consumed by your cloud function. However, inside the testing environment, the json will not be encrypted, in other words, it will return an error. In this case, it is possible to test your script by removing your decryption line in your code or supply the triggering event with an encrypted message.
+
 
 
 
