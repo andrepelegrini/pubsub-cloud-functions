@@ -14,3 +14,12 @@ According to the [documentation](https://cloud.google.com/functions/docs), Googl
 
 2. **Create cloud function**: after the topic is created, click on **TRIGGER CLOUD FUNCTION** to write your own function. Once you click, the trigger type will be automatically defined as a *Cloud Pub/Sub trigger*, meaning your code will only run once the message reaches the chosen topic. Reminding that the function is triggered by the message which is on the *subscriber*, not the publisher. Once you create the function, the subscriber is generated automatically and linked to your topic. For other applications, it might be necessary to create it manually.
 
+![passo2](https://user-images.githubusercontent.com/50640320/105194952-da9d0b80-5b18-11eb-8630-63475616813c.png)
+
+3. **Cloud function configuration**: 
+* *Function name*: name given to the function. Suggestion: choose the same name used on your topic;
+
+* *Region*: change the default us-central1 to your region in order to avoid unnecessary costs e.g. Brazil: southamerica-east1;
+
+* *VARIABLES, NETWORKING AND ADVANCED SETTINGS*: inside ADVANCED, I suggest replace 60 seconds timeout (default) to 540 (maximum). It better ensures the function will be executed without the risk of timing out before it is finished. 
+
