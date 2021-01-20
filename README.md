@@ -23,3 +23,5 @@ According to the [documentation](https://cloud.google.com/functions/docs), Googl
 
 * *VARIABLES, NETWORKING AND ADVANCED SETTINGS*: inside ADVANCED, I suggest replace 60 seconds timeout (default) to 540 (maximum). It better ensures the function will be executed without the risk of timing out before it is finished. 
 
+![passo3.1](https://user-images.githubusercontent.com/50640320/105197387-539d6280-5b1b-11eb-91b7-4e13fd41f4bb.png)
+
