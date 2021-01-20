@@ -29,7 +29,7 @@ According to the [documentation](https://cloud.google.com/functions/docs), Googl
 
 4. **Write script**: firstly, choose each programming language is more suitable to you (Go, Java, Node.js and Python) in *runtime*. If Python is chosen, the block main.py will receive the code and requirements.txt the libraries and dependencies (package>=version). Important to remember that it is necessary to define a function where your transformation code will be written as this function name will be the used at the *Entry Point*, meaning this will be the function to be triggered once the message is received. Once the code is written, click on DEPLOY and your function will be online.
 
-![passo4](https://user-images.githubusercontent.com/50640320/105206075-b1827800-5b24-11eb-9c86-7fa462016715.png)
+![passo4](https://user-images.githubusercontent.com/50640320/105208981-125f7f80-5b28-11eb-972e-90da654a35af.png)
 
 An example of a code can be found here.
 
