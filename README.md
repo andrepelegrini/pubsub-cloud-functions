@@ -31,7 +31,7 @@ According to the [documentation](https://cloud.google.com/functions/docs), Googl
 
 ![passo4](https://user-images.githubusercontent.com/50640320/105208981-125f7f80-5b28-11eb-972e-90da654a35af.png)
 
-An example of a code can be found here.
+An example of a code can be found [here](https://github.com/andrepelegrini/pubsub-cloud-functions/blob/master/code-example.py).
 
 ## Testing
 Once the function is deployed correctly, it is possible to test it without the need to send a message to the topic. First, click on your function and then on TESTING, where it is possible to paste a test message (json format) inside the *triggering event* box. Secondly, click on TEST THE FUNCTION to run the test and receive the feedback at Output below. If the function is working properly, it returns an 'Ok'. Otherwise, the errors will be listed similar to a jupyter notebook. 
