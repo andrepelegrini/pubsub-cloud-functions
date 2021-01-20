@@ -12,4 +12,5 @@ According to the [documentation](https://cloud.google.com/functions/docs), Googl
 
 ![passo1](https://user-images.githubusercontent.com/50640320/105192154-97da3400-5b16-11eb-8af8-8267829a8e59.png)
 
+2. **Create cloud function**: after the topic is created, click on **TRIGGER CLOUD FUNCTION** to write your own function. Once you click, the trigger type will be automatically defined as a *Cloud Pub/Sub trigger*, meaning your code will only run once the message reaches the chosen topic. Reminding that the function is triggered by the message which is on the *subscriber*, not the publisher. Once you create the function, the subscriber is generated automatically and linked to your topic. For other applications, it might be necessary to create it manually.
 
